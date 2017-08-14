@@ -1,0 +1,235 @@
+body {
+  background-color: #e9e9e9;
+  font-family: "roboto", Helvetica, sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#contenedor-inner {
+  width: 800px;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+}
+
+#headerleft {
+  float: left !important;
+  margin-left: 15rem;
+  margin-top: 2rem;
+  background-image: url(http://www.produccion.gob.ar/wp-content/uploads/2016/10/Logo_MinProd.png) !important;
+  background-size: 290px auto !important;
+  height: 100px!important;
+  min-width: 100%;
+}
+
+#headerright {
+  display: none;
+}
+
+#menu-main {
+  display: none;
+}
+
+#menu-main ul li {
+  float: left;
+  position: relative;
+}
+
+#menu-main ul, #menu-main ul li a {
+  vertical-align: middle;
+  color: #0695d6 !important;
+}
+
+#menu-main ul {
+  font-size: 12px !important;
+  font-weight: bold;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: left;
+  width: 80%;
+}
+
+#menu-main ul li a {
+  float: left;
+  margin: 0;
+  padding: 0 12px;
+  line-height: 28px;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+#menu-main ul li a:hover {
+  background: #13A5E1;
+  color: #ffffff !important;
+  padding-bottom: 10px;
+}
+
+.submenu {
+  position: absolute;
+  z-index: 1000;
+  background: #ffffff !important;
+  top: 28px;
+  left: 0;
+  width: 170px !important;
+  height: auto !important;
+}
+
+.submenu li a {
+  text-align: left !important;
+  text-transform: none !important;
+  font-weight: normal !important;
+  line-height: 18px !important;
+  padding: 5px 12px !important;
+  width: 86%;
+  background: #ffffff !important;
+}
+
+.submenu li a:hover {
+  background: #13A5E1 !important;
+}
+
+.submenu li {
+  border-bottom: 1px solid #f3f3f3 !important;
+  width: 100%;
+}
+
+.activo a {
+  background: #13A5E1;
+}
+
+h1.titulo {
+  color: #444444;
+  font-size: 36px;
+  letter-spacing: -1px;
+  text-transform: none !important;
+  padding: 15px 0;
+  border-bottom: 0px !important;
+  width: 770px;
+  float: left;
+  text-align: center;
+  margin-top: rem;
+  margin-bottom: 2rem;
+}
+
+#contenido {
+  width: 100%;
+  background: #ffffff;
+}
+
+.tituloN {
+  text-align: center !important;
+  color: #444444;
+  font-size: 18px;
+  padding-bottom: 25px;
+  ;
+  float: none !important;
+  width: auto;
+}
+
+.datos-bloque {
+  padding-bottom: 20px;
+  width: 770px;
+  background-color: White;
+  border: 0px solid rgba(155, 220, 255, 0.7);
+}
+
+.datos-bloque-original {
+  padding-bottom: 20px;
+  width: 770px;
+  background-color: #EBF8FF !important;
+}
+
+.datos-bloque h3 {
+  color: #444444;
+  font-size: 14px;
+  padding: 10px 0 10px 13px;
+  text-align: center;
+}
+
+input, textarea, select {
+  background: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height: 30px;
+  color: #000000;
+  float: left;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  padding: 3px;
+  font-family: "roboto", Helvetica, sans-serif !important;
+}
+
+.texto_acuerdo {
+  border: 1px solid #ccc;
+  width: 764px;
+  height: 200px;
+  overflow: auto;
+  margin-top: 20px;
+  background: #fff;
+  color: #666;
+}
+
+a.btn_gral {
+  background-image: none;
+  border: 0;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  padding: 8px 12px !important;
+  text-transform: uppercase;
+  vertical-align: top;
+  white-space: initial;
+  word-break: initial;
+  text-decoration: none;
+  background-color: #0695d6;
+  color: #ffffff;
+  display: inline-block;
+}
+
+a.btn_gral span {
+  background-image: none;
+}
+
+a.btn_gral:hover {
+  background-color: #17b2f8;
+}
+
+a.btn_gral:hover span {
+  background-color: #17b2f8;
+}
+
+.warning {
+  background: #fff0c9;
+  border-color: #fed054;
+  padding: 15px 0;
+  width: 100%;
+  text-align: center;
+  line-height: 40px;
+}
+
+.warning strong {
+  font-weight: normal;
+  font-size: 1 rem;
+}
+
+.warning img {
+  content: url("http://img.mailingproduccion.gob.ar/fa-warning.png");
+}
+
+#footer {
+  clear: both;
+  text-align: center;
+  background: #e9e9e9;
+  height: 10px;
+}
+
+.checkNet3 label {
+  float: left;
+  padding-top: 8px !important;
+  padding-left: 10px !important;
+}

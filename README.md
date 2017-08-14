@@ -1,2 +1,0 @@
-# firmaDigital
-firmadigital
