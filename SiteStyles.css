@@ -16,7 +16,7 @@ body {
   float: left !important;
   margin-left: 15rem;
   margin-top: 2rem;
-  background-image: url(http://img.mailingproduccion.gob.ar/argentinagob.png) !important;
+  background-image: url(http://datos.gob.ar/img/logo_ministerio.svg) !important;
   background-size: 290px auto !important;
   height: 100px!important;
   min-width: 100%;
@@ -27,7 +27,9 @@ body {
 }
 
 #menu-main {
-  display: none;
+  background-color: #ffffff;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  padding-bottom: 10px;
 }
 
 #menu-main ul li {
@@ -69,6 +71,8 @@ body {
 }
 
 .submenu {
+  opacity: 1 !important;
+  margin-top: 10px !important;
   position: absolute;
   z-index: 1000;
   background: #ffffff !important;
@@ -76,6 +80,7 @@ body {
   left: 0;
   width: 170px !important;
   height: auto !important;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
 }
 
 .submenu li a {
@@ -103,7 +108,7 @@ body {
 
 h1.titulo {
   color: #444444;
-  font-size: 36px;
+  font-size: 32px;
   letter-spacing: -1px;
   text-transform: none !important;
   padding: 15px 0;
@@ -139,7 +144,7 @@ h1.titulo {
 .datos-bloque-original {
   padding-bottom: 20px;
   width: 770px;
-  background-color: #EBF8FF !important;
+  background-color: #ffffff !important;
 }
 
 .datos-bloque h3 {
@@ -162,12 +167,11 @@ input, textarea, select {
   font-family: "roboto", Helvetica, sans-serif !important;
 }
 
-select{
+select {
   height: 38px !important
 }
 
-.detalle_solicitud input, .items-list input
-{
+.detalle_solicitud input, .items-list input {
   background: #ffffff;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -191,6 +195,7 @@ select{
 }
 
 a.btn_gral {
+  margin-left: 10px;
   background-image: none;
   border: 0;
   border-radius: 4px;
@@ -260,6 +265,112 @@ a.btn_gral:hover span {
   font-weight: 300;
 }
 
-.mensaje strong{
+.mensaje strong {
   color: #000 !important;
+}
+
+.box-importante4 {
+  float: right !important;
+  color: #58595B;
+  width: 215px;
+  border-color: #f4857a;
+  border-style: solid;
+  border-width: 1px;
+  margin: 15px 2px 0 0;
+  background: #fde4e2;
+  border-radius: 4px;
+}
+
+.box-importante4 h4 {
+    text-align: center;
+    color: #ef4d3d;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.box-importante4 h4 img {
+  padding: 0.5rem 0 0.5rem 0;
+  width: 24px;
+  height: 24px;
+  clear: both;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  content: url(http://img.mailingproduccion.gob.ar/fa-exclamation-circle.png);
+}
+
+.box-importante4 div .btn_gral{
+      margin-left: 10px !important;
+}
+
+.box-importante4 li a {
+    color: #58595B;
+}
+
+.box-importante4 li {
+    border-bottom: 1px solid rgba(244, 133, 122, 0.32) !important;
+}
+
+.box-inicio p {
+    font-size: 9pt;
+    padding: 0 10px;
+    line-height: 15px;
+}
+
+.box-inicio li {
+    display: block;
+    line-height: 14px;
+    width: 182px !important;
+    padding-bottom: 18px;
+    font-size: 10pt;
+}
+
+.box-inicio {
+    color: #58595B;
+    width: 236px;
+    border: 1px solid #85d0e7;
+    padding-bottom: 10px;
+    height: 300px;
+    background: #fff;
+    border-radius: 4px;
+}
+
+.box-inicio h4 {
+    width: 100%;
+    float: left;
+    text-align: center;
+    background: #daf1f8;
+    color: #0099CC;
+    text-transform: uppercase;
+    padding: 10px 0;
+    margin-bottom: 8px;
+}
+
+.checks {
+  margin: 0px !important;
+}
+
+.box-inicio-BigLi li {
+    line-height: 14px !important;
+    padding-bottom: 18px !important;
+    font-size: 10pt !important;
+}
+
+.checks li
+{
+    background: url(http://img.mailingproduccion.gob.ar/fa-angle-right.png) no-repeat 0 0 !important;
+    padding-left: 20px;
+    width: 100%;
+    line-height: 15px;
+}
+
+h1.tituloDescripcion {
+    color: #0099CC;
+    font-size: 20px;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    padding: 15px 0;
+    border-bottom: 0 !important;
+    width: 480px;
+    float: left;
 }
